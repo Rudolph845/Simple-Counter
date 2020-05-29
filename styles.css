@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    align-items: center;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 30px;
+    width: 100vw;
+    justify-content: center;
+    background-image: url("storm.jpg");
+    background-size: cover;
+}
+
+.container {
+    margin: 1em;
+    max-width: 80%;
+    border-style: solid;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+    background-color: white;
+    border-radius: 20px;
+
+}
+
+.title {
+    text-decoration: underline;
+    text-align: center;
+    padding: 1em;
+}
+
+.number-display {
+    border-style: solid;
+    text-align: center;
+
+}
+
+.button-container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.btn {
+    padding: 10px;
+    border-style: solid;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 1em;
+    background-color: pink;
+    
+}
+
+.btn:hover {
+    background-color: yellow;
+  }
